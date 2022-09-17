@@ -35,17 +35,24 @@ a:hover {
 
 }
 
-/* Fonts */ 
-p,
-h4,
-h5 {
+/* Fonts */
+p {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
-    font-size: 0.9rem;
 }
 
 h1,
 h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+h4,
+h5 {
+    font-weight: 500;
+}
+
 li {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -74,6 +81,10 @@ li {
     display: grid;
     place-items: center;
     padding: 20px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--heading-secondary);
 }
 
 /* HEADER */
@@ -117,9 +128,17 @@ li {
     height: 200px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.6);
-    font-size: 3rem;
     color: var(--heading-secondary);
     z-index: 5;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-headline h1 {
+    font-size: 3.2rem;
 }
 
 /* Home Features Section */
@@ -136,9 +155,8 @@ li {
 }
 
 .feature-card {
-    background: rgb(253, 168, 121);
-    background: linear-gradient(0deg, rgba(253, 168, 121, 1) 0%, rgba(252, 172, 171, 1) 40%, rgba(254, 169, 208, 1) 100%);
-    color: var(--heading-secondary);
+    background-color: var(--secondary-accent);
+    color: var(--background);
     min-height: 250px;
     width: 35%;
     text-align: center;
@@ -153,7 +171,7 @@ li {
     font-size: 2.2rem;
     font-weight: 800;
     text-transform: uppercase;
-    color: var(--heading-primary);
+    color: #fff
 }
 
 /* Footer */
