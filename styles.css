@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px dotted red;
+}
+
+
+
+/* HEADER */
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-links {
+    display: flex;
+    margin: 0 30px;
+    gap: 25%;
+  }
