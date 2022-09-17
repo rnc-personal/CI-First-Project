@@ -10,7 +10,8 @@
 /* Basic Elements */
 
 html {
-    height: 2500px;
+    height: 100%;
+    overflow-x: hidden;
     /* Over-riden for fixed header */
 }
 
@@ -124,7 +125,7 @@ li {
 /* Home Features Section */
 
 #features {
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 .card-wrapper {
@@ -153,4 +154,10 @@ li {
     font-weight: 800;
     text-transform: uppercase;
     color: var(--heading-primary);
+}
+
+/* Footer */
+footer {
+    background-color: var(--secondary-accent);
+    width: 100vw;
 }
