@@ -5,18 +5,39 @@
     border: 1px dotted red;
 }
 
+html {
+    height: 2500px;
+}
 
+
+/* MAIN COLOURS */
+
+:root {
+    --background: #fff;
+    --main-accent: #084C61;
+    --secondary-accent: #DB504A;
+    --highlight: #E3B505;
+    --heading-primary: #07A0C3;
+    --heading-secondary: #4F6D7A;
+}
 
 /* HEADER */
 
 #header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    position: fixed;
+    width: 100vw
 }
-
 
 .nav-links {
     display: flex;
+    list-style: none;
     margin: 0 30px;
-    gap: 25%;
-  }
+}
+
+.nav-links a {
+    padding: 0 20px;
+}
