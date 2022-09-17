@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
 }
 
 html {
@@ -23,6 +23,12 @@ img {
 a {
     text-decoration: none;
     color: var(--highlight);
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    color: #DB504A;
+    
 }
 
 p, h4, h5  {
