@@ -4,11 +4,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px dotted red; */
+    /* border: 1px dotted red; for debugging*/
 }
+
+/* Basic Elements */
 
 html {
     height: 2500px;
+    /* Over-riden for fixed header */
 }
 
 main {
@@ -31,6 +34,7 @@ a:hover {
 
 }
 
+/* Fonts */ 
 p,
 h4,
 h5 {
@@ -57,10 +61,18 @@ li {
     --heading-secondary: #4F6D7A;
 }
 
+/* Utility/Generic */
+
 .container {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
+}
+
+.section-header {
+    display: grid;
+    place-items: center;
+    padding: 20px 0;
 }
 
 /* HEADER */
@@ -114,6 +126,7 @@ li {
 #features {
     margin-top: 30px;
 }
+
 .card-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -122,8 +135,8 @@ li {
 }
 
 .feature-card {
-    background: rgb(253,168,121);
-    background: linear-gradient(0deg, rgba(253,168,121,1) 0%, rgba(252,172,171,1) 40%, rgba(254,169,208,1) 100%); 
+    background: rgb(253, 168, 121);
+    background: linear-gradient(0deg, rgba(253, 168, 121, 1) 0%, rgba(252, 172, 171, 1) 40%, rgba(254, 169, 208, 1) 100%);
     color: var(--heading-secondary);
     min-height: 250px;
     width: 35%;
