@@ -37,7 +37,8 @@ a:hover {
 
 /* Fonts */
 p,
-span {
+span,
+label {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
@@ -182,12 +183,24 @@ footer {
     width: 100vw;
     display: flex;
     align-content: space-between;
+    align-items: center;
+}
+
+footer a:hover {
+    color: #fff;
 }
 
 .footer-left,
 .footer-right {
     width: 50%;
+}
+
+.footer-left {
     padding: 20px 30px;
+}
+
+.footer-right {
+    padding: 20px 30px 20px 0;
 }
 
 .to-top {
@@ -201,6 +214,29 @@ footer {
 .to-top:hover {
     background-color: var(--heading-secondary);
 }
+
 .to-top a:hover {
     color: #fff;
+}
+
+footer label {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer input {
+    width: 30%;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+.btn--submit {
+    outline: none;
+    border: none;
+    padding: 7px 20px;   
+    background-color: var(--highlight); 
+    color: #fff;
+    margin-left: 10px;
 }
