@@ -285,15 +285,22 @@ li {
 
 /* About Page */
 
-.about-process {
+.about-process, .features {
     height: 150px;
-    background-color: var(--secondary-accent);
     color: #fff;
     width: 100vw;
     position: relative;
 }
 
-.about-headline {
+.about-process {
+    background-color: var(--secondary-accent);
+}
+
+.features {
+    background-color: var(--highlight);
+}
+
+.about-headline, .features-headline  {
     position: absolute;
     top: 80px;
     margin: 0 auto;
