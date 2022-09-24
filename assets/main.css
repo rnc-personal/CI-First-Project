@@ -276,6 +276,7 @@ li {
 .gallery-card:nth-child(odd) .gallery-overlay {
     background: var(--main-accent);
 }
+
 .gallery-card:nth-child(even) .gallery-overlay {
     background: var(--secondary-accent);
 }
@@ -286,7 +287,8 @@ li {
 
 /* About Page */
 
-.about-process, .features {
+.about-process,
+.features {
     height: 150px;
     color: #fff;
     width: 100vw;
@@ -301,7 +303,8 @@ li {
     background-color: var(--highlight);
 }
 
-.about-headline, .features-headline  {
+.about-headline,
+.features-headline {
     position: absolute;
     top: 80px;
     margin: 0 auto;
@@ -343,17 +346,18 @@ li {
 
 .case-studies-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(465px, 1fr)); /* TIP FROM: https://stackoverflow.com/questions/43662552/getting-columns-to-wrap-in-css-grid */
+    grid-template-columns: repeat(auto-fill, minmax(465px, 1fr));
+    /* TIP FROM: https://stackoverflow.com/questions/43662552/getting-columns-to-wrap-in-css-grid */
     padding: 0 3vw;
     grid-gap: 0 20px;
-  }
+}
 
 
 .case-study {
     margin: 20px 0;
     padding: 10px;
     border: solid 2px var(--heading-primary);
-  }
+}
 
 #case-studies h2 {
     text-align: center;
@@ -365,7 +369,7 @@ li {
     width: 90px;
     float: left;
     margin: 0 15px 5px 0;
-    
+
 }
 
 /* Features Page */
@@ -373,7 +377,7 @@ li {
 .features-wrapper {
     display: flex;
     flex-wrap: wrap;
-  
+    margin: 40px 0;
 }
 
 .technical-card {
@@ -381,7 +385,22 @@ li {
     width: 33%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.technical-card img {
+    margin-bottom: 15px;
+}
+
+.tech-card-text {
+    max-width: 80%;
+}
+
+#pricing-cta {
+    height: 10rem;
+    background-color: var(--heading-primary);
+    color: #fff;
 }
 
 /* Footer */
