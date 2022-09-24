@@ -174,10 +174,16 @@ li {
     align-items: center;
 }
 
-#process-flow {
+#process {
     background-color: var(--secondary-accent);
+}
+
+#process-flow {
     color: #fff;
     display: flex;
+    margin: 0 10vw;
+    gap: 20px;
+    justify-content: center;
 }
 
 .process-step {
