@@ -320,6 +320,7 @@ li {
 .case-studies-wrapper {
     display: grid;
     grid-template-columns: 50% 50%;
+    padding: 0 3vw;
   }
 
 
@@ -336,12 +337,12 @@ li {
     width: 40%;
 }
 
-
-
 .case-study-text>img {
     height: 80px;
     width: 90px;
-    float: right;
+    float: left;
+    margin: 0 15px 5px 0;
+    border: 2px solid var(--heading-primary);
 }
 
 /* Footer */
