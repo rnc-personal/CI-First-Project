@@ -403,6 +403,28 @@ li {
     color: #fff;
 }
 
+.container--slim {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.container--slim a {
+    color: #fff;
+}
+
+.cta-wrapper {
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta-wrapper i:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s;
+}
+
 /* Footer */
 footer {
     background-color: var(--secondary-accent);
