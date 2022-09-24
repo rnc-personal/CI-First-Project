@@ -153,6 +153,25 @@ li {
     font-size: 3.2rem;
 }
 
+.about-process {
+    height: 150px;
+    background-color: var(--secondary-accent);
+    color: #fff;
+    width: 100vw;
+    position: relative;
+}
+
+.about-headline {
+    position: absolute;
+    top: 80px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Home Blurb */
 
 .about-rte {
@@ -174,7 +193,8 @@ li {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 .video-wrapper iframe {
