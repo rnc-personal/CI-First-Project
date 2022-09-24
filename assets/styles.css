@@ -34,6 +34,9 @@ a:hover {
     color: #DB504A;
 }
 
+i {
+    color: #fff;
+}
 
 /* Fonts */
 p,
@@ -288,4 +291,11 @@ footer input {
 
 .btn--submit:hover {
     opacity: 0.8;
+}
+
+.sm-icon-wrapper {
+    display: flex;
+    margin-top: 10px;
+    gap: 12px;
+    background-color: cyan;
 }
