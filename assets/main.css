@@ -318,15 +318,15 @@ li {
 }
 
 .case-studies-wrapper {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fill, minmax(465px, 1fr)); /* TIP FROM: https://stackoverflow.com/questions/43662552/getting-columns-to-wrap-in-css-grid */
     padding: 0 3vw;
+    grid-gap: 0 20px;
   }
 
 
 .case-study {
-    width: max-content;
     margin: 20px 0;
+    padding: 10px;
   }
 
 #case-studies h2 {
