@@ -144,8 +144,8 @@ hr {
 
 .hero-headline {
     position: absolute;
-    top: 15%;
-    width: 33%;
+    top: 7%;
+    width: 75%;
     height: 200px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.6);
@@ -407,7 +407,8 @@ hr {
     margin: 0 auto;
 }
 
-.features-wrapper, .pricing-wrapper {
+.features-wrapper,
+.pricing-wrapper {
     display: flex;
     flex-wrap: wrap;
     margin: 40px 0;
@@ -427,7 +428,8 @@ hr {
     margin-bottom: 15px;
 }
 
-.tech-card-text, .pricing-card-text {
+.tech-card-text,
+.pricing-card-text {
     max-width: 80%;
 }
 
@@ -510,7 +512,8 @@ hr {
     padding: 10px;
 }
 
-.pricing-card h2, .pricing-card-text {
+.pricing-card h2,
+.pricing-card-text {
     color: #fff;
     margin-bottom: 1.2rem;
 }
@@ -592,13 +595,23 @@ footer input {
 
 /* Responsive */
 
-@media screen and (max-width:725px){
+@media screen and (max-width:725px) {
+
+    #hero {
+        height: 263px;
+    }
+
+    .hero-headline {
+        top: 5%;
+        width: 100%;
+    }
+
     .feature-card {
         width: 100%;
     }
 
     .gallery-wrapper {
         grid-template-columns: 1fr;
-        grid-auto-rows: unset;    
+        grid-auto-rows: unset;
     }
 }
