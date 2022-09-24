@@ -316,11 +316,13 @@ hr {
     align-items: center;
 }
 
-#company-details, #pricing-details {
+#company-details,
+#pricing-details {
     background-color: var(--secondary-accent);
 }
 
-.details-blurb, .pricing-blurb {
+.details-blurb,
+.pricing-blurb {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -403,14 +405,14 @@ hr {
     margin: 0 auto;
 }
 
-.features-wrapper {
+.features-wrapper, .pricing-wrapper {
     display: flex;
     flex-wrap: wrap;
     margin: 40px 0;
     justify-content: space-between;
 }
 
-.technical-card {
+.technical-card, .pricing-card {
     display: flex;
     width: 33%;
     flex-direction: column;
@@ -423,7 +425,7 @@ hr {
     margin-bottom: 15px;
 }
 
-.tech-card-text {
+.tech-card-text, .pricing-card-text {
     max-width: 80%;
 }
 
@@ -454,6 +456,44 @@ hr {
     transform: rotate(360deg);
     transition: all 0.5s;
 }
+
+/* Pricing Page */
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.tg td {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-cell {
+    text-align: center;
+    vertical-align: top
+}
+
+
 
 /* Footer */
 footer {
