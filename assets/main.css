@@ -316,11 +316,11 @@ hr {
     align-items: center;
 }
 
-#company-details {
+#company-details, #pricing-details {
     background-color: var(--secondary-accent);
 }
 
-.details-blurb {
+.details-blurb, .pricing-blurb {
     display: flex;
     justify-content: center;
     flex-direction: column;
