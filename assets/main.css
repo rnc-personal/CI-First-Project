@@ -153,6 +153,8 @@ li {
     font-size: 3.2rem;
 }
 
+/* About Page */
+
 .about-process {
     height: 150px;
     background-color: var(--secondary-accent);
@@ -170,6 +172,18 @@ li {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+#process-flow {
+    background-color: var(--secondary-accent);
+    color: #fff;
+    display: flex;
+}
+
+.process-step {
+    flex: 0 0 25%;
+    width: 25%;
+    text-align: center;
 }
 
 /* Home Blurb */
