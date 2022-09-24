@@ -301,13 +301,6 @@ hr {
     color: #fff;
     width: 100vw;
     position: relative;
-}
-
-.about-process {
-    background-color: var(--secondary-accent);
-}
-
-.features {
     background-color: var(--highlight);
 }
 
