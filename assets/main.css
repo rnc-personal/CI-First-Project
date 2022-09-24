@@ -157,6 +157,16 @@ li {
 
 /* Home Blurb */
 
+#about-blurb {
+    background-color: var(--secondary-accent);
+    color: #fff;
+}
+
+#about-blurb h2 {
+    color: #fff;
+}
+
+
 .about-rte {
     max-width: 73%;
     margin: 0 auto;
@@ -212,7 +222,7 @@ li {
 }
 
 .feature-card-rte {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: var(--secondary-accent);
     height: 100%;
 }
 
@@ -258,10 +268,15 @@ li {
     opacity: 0;
     visibility: none;
     transition: .5s ease;
-    background: rgb(253, 168, 121);
-    background: linear-gradient(0deg, rgba(253, 168, 121, 1) 0%, rgba(252, 172, 171, 1) 40%, rgba(254, 169, 208, 1) 100%);
     color: #fff;
     text-align: center;
+}
+
+.gallery-card:nth-child(odd) .gallery-overlay {
+    background: var(--main-accent);
+}
+.gallery-card:nth-child(even) .gallery-overlay {
+    background: var(--secondary-accent);
 }
 
 .gallery-card:hover .gallery-overlay {
