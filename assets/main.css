@@ -374,10 +374,17 @@ li {
 
 /* Features Page */
 
+.container--tight {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 .features-wrapper {
     display: flex;
     flex-wrap: wrap;
     margin: 40px 0;
+    justify-content: space-between;
 }
 
 .technical-card {
