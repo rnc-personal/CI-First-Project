@@ -493,13 +493,24 @@ hr {
     vertical-align: top
 }
 
+.pricing-wrapper {
+    gap: 20px;
+}
+
 .pricing-card {
     display: flex;
-    width: 50%;
+    width: 45%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 1.5rem;
+    background-color: var(--main-accent);
+    padding: 10px;
+}
+
+.pricing-card h2, .pricing-card-text {
+    color: #fff;
+    margin-bottom: 1.2rem;
 }
 
 /* Footer */
