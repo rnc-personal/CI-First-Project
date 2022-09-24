@@ -344,6 +344,7 @@ li {
 .case-study {
     margin: 20px 0;
     padding: 10px;
+    border: solid 2px var(--heading-primary);
   }
 
 #case-studies h2 {
@@ -356,7 +357,7 @@ li {
     width: 90px;
     float: left;
     margin: 0 15px 5px 0;
-    border: 2px solid var(--heading-primary);
+    
 }
 
 /* Footer */
