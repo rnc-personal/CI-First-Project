@@ -412,7 +412,7 @@ hr {
     justify-content: space-between;
 }
 
-.technical-card, .pricing-card {
+.technical-card {
     display: flex;
     width: 33%;
     flex-direction: column;
@@ -493,7 +493,14 @@ hr {
     vertical-align: top
 }
 
-
+.pricing-card {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
 
 /* Footer */
 footer {
