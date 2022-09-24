@@ -318,7 +318,7 @@ li {
 /* Process Section */
 
 #process {
-    background-color: var(--secondary-accent);
+    background-color: var(--heading-primary);
 }
 
 #process-flow {
@@ -327,7 +327,7 @@ li {
     margin: 0 10vw;
     gap: 20px;
     justify-content: center;
-    padding-bottom: 20px;
+    padding: 20px 0;
     align-items: flex-start;
 }
 
