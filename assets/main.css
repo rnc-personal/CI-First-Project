@@ -613,7 +613,7 @@ footer input {
 
 #contact {
     min-height: 300px;
-
+    margin: 20px auto;
 }
 
 .req-form {
@@ -630,12 +630,17 @@ footer input {
 
 .req-form input {
     height: 40px;
-    border-radius: 20px;
     margin-bottom: 25px;
     outline: 0;
     border: 1px solid var(--secondary-accent);
     font-size: 1.6rem;
-    
+
+}
+
+.btn--contact {
+    width: 50%;
+    padding: 15px;
+    margin: 0 auto;
 }
 
 /* Responsive */
