@@ -296,6 +296,14 @@ hr {
     text-align: center;
 }
 
+.overlay-text {
+    padding: 0 20px;
+}
+
+.overlay-text li {
+    list-style: inside;
+}
+
 .gallery-card:nth-child(odd) .gallery-overlay {
     background: var(--main-accent);
 }
