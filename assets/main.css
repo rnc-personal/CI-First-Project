@@ -603,6 +603,14 @@ footer input {
 
 @media screen and (max-width:725px) {
 
+    * {
+        overflow-x: hidden;
+    }
+
+    #header {
+        padding: 24px 2vw;
+    }
+
     #hero {
         height: 263px;
     }
@@ -619,5 +627,23 @@ footer input {
     .gallery-wrapper {
         grid-template-columns: 1fr;
         grid-auto-rows: unset;
+    }
+
+    .to-top {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-right {
+        width: 100%;
+        padding: 20px 10%;
+    }
+
+    footer input {
+        width: 65%;
     }
 }
