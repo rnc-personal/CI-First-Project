@@ -774,7 +774,12 @@ footer input {
     }
 
     footer input {
-        width: 65%;
+        width: 100%;
+    }
+
+    .btn--submit {
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
