@@ -20,7 +20,16 @@ Had to Rename CSS file and re-link. Confirmed there were no typos/missing charac
 
 - Issue with case studies grid with text overflow because of the idth of the grid items.(Resolved)
 
-- Contact Page Footer Subscribe Form is trying to validate the main conact form. names/ids are different...Is it just because those fields are required?
+
 
 - Gallery Hover Overlay on mobile was a challenge. Tried tip from:
 https://time2hack.com/can-i-use-hover-on-touch-devices/ but not widely support so instead seta fixed opacity on the overlay for mobile.
+
+
+***************************************
+**************STILL TO DO**************
+***************************************
+
+- Look into Home gallery, card heights being different from images feels strange.
+
+- Contact Page Footer Subscribe Form is trying to validate the main conact form. names/ids are different...Is it just because those fields are required?
