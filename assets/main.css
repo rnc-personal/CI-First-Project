@@ -307,8 +307,7 @@ hr {
 
 /* About Page */
 
-.about-process,
-.features {
+.banner {
     height: 150px;
     color: #fff;
     width: 100vw;
@@ -316,8 +315,8 @@ hr {
     background-color: var(--highlight);
 }
 
-.about-headline,
-.features-headline {
+
+.headline {
     position: absolute;
     top: 80px;
     margin: 0 auto;
