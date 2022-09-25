@@ -433,7 +433,7 @@ hr {
     margin-bottom: 1.5rem;
     background-color: var(--secondary-accent);
     color: #fff;
-    padding-bottom: 15px;    
+    padding-bottom: 15px;
 }
 
 .technical-card img {
@@ -607,6 +607,35 @@ footer input {
     margin-top: 10px;
     gap: 12px;
 
+}
+
+/* Contact */
+
+#contact {
+    min-height: 300px;
+
+}
+
+.req-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.req-form label,
+.req-form input {
+    width: 50%;
+    text-align: center;
+}
+
+.req-form input {
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    outline: 0;
+    border: 1px solid var(--secondary-accent);
+    font-size: 1.6rem;
+    
 }
 
 /* Responsive */
