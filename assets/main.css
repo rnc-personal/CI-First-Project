@@ -783,10 +783,3 @@ footer input {
         width: 100%;
     }
 }
-
-@media (pointer:coarse) {
-    .gallery-overlay {
-        opacity: 1;
-
-    }
-}
