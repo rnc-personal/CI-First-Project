@@ -33,6 +33,7 @@ main {
 img {
     width: 100%;
     max-width: 100vw;
+    height: 100%;
 }
 
 a {
@@ -624,9 +625,9 @@ footer input {
 @media screen and (max-width:767px) {
 
     /* General */
-    * {
+    /* * {
         overflow-x: hidden;
-    }
+    } */
 
     #header {
         padding: 24px 2vw;
@@ -677,7 +678,21 @@ footer input {
         grid-template-columns: 1fr;
     }
 
+    /* Features Page */
 
+    .technical-card {
+        width: 50%;
+    }
+
+    #pricing-cta {
+        height: 13rem;
+    }
+
+    .container--slim {
+        flex-direction: column;
+        padding-top: 0;
+        gap: 15px;
+    }
 
     /* Footer */
 
@@ -697,6 +712,12 @@ footer input {
 
     footer input {
         width: 65%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .technical-card {
+        width: 100%;
     }
 }
 
