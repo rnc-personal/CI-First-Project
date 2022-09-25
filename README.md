@@ -23,5 +23,4 @@ Had to Rename CSS file and re-link. Confirmed there were no typos/missing charac
 - Contact Page Footer Subscribe Form is trying to validate the main conact form. names/ids are different...Is it just because those fields are required?
 
 - Gallery Hover Overlay on mobile was a challenge. Tried tip from:
-https://time2hack.com/can-i-use-hover-on-touch-devices/
-? Make text visible but transparent ?
+https://time2hack.com/can-i-use-hover-on-touch-devices/ but not widely support so instead seta fixed opacity on the overlay for mobile.
