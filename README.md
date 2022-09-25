@@ -32,4 +32,6 @@ https://time2hack.com/can-i-use-hover-on-touch-devices/ but not widely support s
 
 - Look into Home gallery, card heights being different from images feels strange.
 
+- add thankyou page for form submission
+
 - Contact Page Footer Subscribe Form is trying to validate the main conact form. names/ids are different...Is it just because those fields are required?
