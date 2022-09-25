@@ -432,6 +432,9 @@ hr {
     justify-content: center;
     align-items: center;
     margin-bottom: 1.5rem;
+    background-color: var(--secondary-accent);
+    color: #fff;
+    padding-bottom: 15px;    
 }
 
 .technical-card img {
