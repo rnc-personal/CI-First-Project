@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@200;500;800&display=swap');
 
+/* MAIN COLOURS */
+
+:root {
+    --background: #fff;
+    --main-accent: #0E2B37;
+    --secondary-accent: #DB504A;
+    --highlight: #E39705;
+    --heading-primary: #027691;
+    --heading-secondary: #4F6D7A;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -79,16 +90,7 @@ hr {
     margin: 5px 0;
 }
 
-/* MAIN COLOURS */
 
-:root {
-    --background: #fff;
-    --main-accent: #084C61;
-    --secondary-accent: #DB504A;
-    --highlight: #E3B505;
-    --heading-primary: #07A0C3;
-    --heading-secondary: #4F6D7A;
-}
 
 /* Utility/Generic */
 
