@@ -465,6 +465,10 @@ hr {
 
 /* Pricing Page */
 
+.pricing-blurb h3 {
+    text-align: center;
+}
+
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
