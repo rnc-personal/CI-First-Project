@@ -685,7 +685,7 @@ footer input {
     }
 
     .nav-links--mob i {
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin: 0 1.3rem;
     }
 
@@ -698,8 +698,12 @@ footer input {
     }
 
     .hero-headline {
-        top: 5%;
+        top: 65px;
         width: 100%;
+    }
+
+    .hero-headline h1 {
+        font-size: 1.8rem;
     }
 
     .about-rte {
