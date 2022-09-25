@@ -136,7 +136,7 @@ hr {
 .nav-links--mob {
     display: flex;
     list-style: none;
-    margin: 0 30px;
+    margin: 0 20px;
 }
 
 .nav-links a {
