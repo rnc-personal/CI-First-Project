@@ -609,9 +609,21 @@ footer input {
     }
 }
 
+@media screen and (max-width:899px) {
+    #process-flow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .process-step {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}
 
 @media screen and (max-width:767px) {
 
+    /* General */
     * {
         overflow-x: hidden;
     }
@@ -654,6 +666,20 @@ footer input {
         grid-template-columns: 1fr;
         grid-auto-rows: unset;
     }
+
+    /*About Page */
+    .details-blurb,
+    .pricing-blurb {
+        max-width: 90%;
+    }
+
+    .case-studies-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+
+
+    /* Footer */
 
     .to-top {
         display: none;
