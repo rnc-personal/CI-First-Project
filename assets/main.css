@@ -546,17 +546,18 @@ hr {
     display: flex;
     width: 49%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
     background-color: var(--main-accent);
     padding: 10px;
 }
 
-.pricing-card h2,
+.pricing-card h3,
 .pricing-card-text {
     color: #fff;
     margin-bottom: 1.2rem;
+    text-align: center;
 }
 
 /* Footer */
