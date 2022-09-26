@@ -15,15 +15,15 @@ Card Overlay Idea inspired by: https://stevenstromick.com/css/css-card-overlay/
 Responsive iframe tip for YT Video from: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
 
 24/09/2022 - Bug after adding FontAwesome where changes to CSS didn't register, only HTML changes were being picked up.
-Removed FA but no change. Tried Re-order stylesheet links order in header but again no change..
-Had to Rename CSS file and re-link. Confirmed there were no typos/missing characters in the css link.
+Removed Font Awesome but no change. Tried Re-order stylesheet links order in header but again no change..
+Had to Rename CSS file and re-link. Confirmed there were no typos/missing characters in the css link. (Resolved)
 
-- Issue with case studies grid with text overflow because of the idth of the grid items.(Resolved)
+- Issue with case studies grid with text overflow because of the width of the grid items.(Resolved)
 
 
 
 - Gallery Hover Overlay on mobile was a challenge. Tried tip from:
-https://time2hack.com/can-i-use-hover-on-touch-devices/ but not widely support so instead seta fixed opacity on the overlay for mobile.
+https://time2hack.com/can-i-use-hover-on-touch-devices/ but not widely support so instead set a fixed opacity on the overlay for mobile.
 
 
 ***************************************
