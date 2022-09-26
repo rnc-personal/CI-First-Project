@@ -82,6 +82,11 @@ li {
     list-style: none;
 }
 
+ol li {
+    list-style: circle;
+    color: #fff;
+}
+
 hr {
     color: #fff;
     width: 100%;
@@ -457,6 +462,14 @@ hr {
     max-width: 80%;
 }
 
+.pricing-est {
+    font-weight: 700;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: auto;
+}
+
 #pricing-cta {
     height: 10rem;
     background-color: var(--heading-primary);
@@ -619,6 +632,16 @@ footer input {
 
 }
 
+.form-submitted-wrapper {
+    background-color: var(--heading-primary);
+    color: #fff;
+    padding-top: 65px;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* Contact */
 
 #contact {
@@ -664,7 +687,7 @@ footer input {
 
 
 @media screen and (max-width: 1200px) {
-    .pricing-card  {
+    .pricing-card {
         width: 100%;
     }
 
