@@ -669,7 +669,7 @@ footer input {
     }
 
     .technical-card {
-        width: 50%;
+        width: 48%;
     }
 
     .gallery-card {
@@ -770,6 +770,10 @@ footer input {
 
     .technical-card {
         width: 100%;
+    }
+
+    .technical-card img {
+        height: 100%;
     }
 
     #pricing-cta {
