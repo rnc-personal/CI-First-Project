@@ -589,6 +589,7 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    border: 1px solid #fff;
 }
 
 .to-top:hover {
