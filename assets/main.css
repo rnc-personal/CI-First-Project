@@ -600,7 +600,7 @@ footer input {
 .btn--submit {
     outline: none;
     border: none;
-    padding: 7px 20px;
+    padding: 8px 20px;
     background-color: var(--highlight);
     color: #fff;
     margin-left: 10px;
@@ -691,6 +691,10 @@ footer input {
 
     .main-nav {
         display: none;
+    }
+
+    i {
+        font-size: 1.5rem;
     }
 
     .nav-links--mob i {
@@ -788,7 +792,7 @@ footer input {
 
     .btn--submit {
         width: 100%;
-        margin: 0 auto;
+        margin: 20px auto;
     }
 }
 
