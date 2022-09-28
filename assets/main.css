@@ -619,6 +619,10 @@ footer input {
     border: none;
 }
 
+#sub-form::placeholder {
+    text-align: center;
+}
+
 .btn--submit {
     outline: none;
     border: none;
