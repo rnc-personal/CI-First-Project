@@ -694,6 +694,12 @@ footer input {
 
 
 /* Responsive */
+@media screen and (min-width: 768px) {
+    .main-nav--mob {
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 1200px) {
     .pricing-card {
@@ -799,7 +805,7 @@ footer input {
     }
 
     #hero {
-        height: 265px;
+        height: 33vh;
     }
 
     #hero-hero--thin {
@@ -807,7 +813,7 @@ footer input {
     }
 
     .hero-headline {
-        top: 65px;
+        top: 165px;
         width: 100%;
     }
 
