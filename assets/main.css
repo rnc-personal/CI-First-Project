@@ -204,6 +204,13 @@ hr {
     color: var(--heading-secondary);
 }
 
+.animation-wrapper {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .video-wrapper {
     display: flex;
     padding: 12px;

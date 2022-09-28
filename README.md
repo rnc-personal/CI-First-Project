@@ -34,7 +34,9 @@ https://time2hack.com/can-i-use-hover-on-touch-devices/ but not widely support s
 
 - Tablet Footer Form Wraps
 
-- Lazy Load gallery images at bottom of homepage
+- Lazy Load gallery images at bottom of homepage (done)
+
+- YT Iframe is harming Lighthouse Score on Mobile, tested GIF instead.
 
 - Home Gallery Tablet sized... CAn you tap to hover? Might need to incerase where these cards become opaque?
 - Contact Page needs aria IDs to seaprate the forms for screen readers
