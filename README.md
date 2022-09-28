@@ -34,6 +34,9 @@ https://time2hack.com/can-i-use-hover-on-touch-devices/ but not widely support s
 
 - Tablet Footer Form Wraps
 
+- Lazy Load gallery images at bottom of homepage
+
 - Home Gallery Tablet sized... CAn you tap to hover? Might need to incerase where these cards become opaque?
+- Contact Page needs aria IDs to seaprate the forms for screen readers
 
 - Contact Page either needs a new section or just work on styling more? Text is still black
