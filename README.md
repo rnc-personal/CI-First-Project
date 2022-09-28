@@ -30,6 +30,10 @@ https://time2hack.com/can-i-use-hover-on-touch-devices/ but not widely support s
 **************STILL TO DO**************
 ***************************************
 
-- Contact Page Footer Subscribe Form is trying to validate the main conact form. names/ids are different...Is it just because those fields are required?
+- Contact Page Footer Subscribe Form is trying to validate the main conact form. names/ids are different...Is it just because those fields are required? (Fixed)
 
-- Contact Page either needs a new section or just work on styling more?
+- Tablet Footer Form Wraps
+
+- Home Gallery Tablet sized... CAn you tap to hover? Might need to incerase where these cards become opaque?
+
+- Contact Page either needs a new section or just work on styling more? Text is still black
