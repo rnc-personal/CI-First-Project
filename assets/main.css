@@ -53,9 +53,15 @@ i {
 p,
 span,
 label,
-aside {
+aside,
+summary {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    color: #fff;
+}
+
+details {
+    width: 95%;
 }
 
 h1,
