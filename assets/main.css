@@ -742,7 +742,6 @@ footer input {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        height: 120px;
     }
 
     .main-nav {
@@ -751,9 +750,10 @@ footer input {
 
     .main-nav--mob {
         position: absolute;
-        top: 90px;
+        top: 64px;
         background-color: var(--main-accent);
         width: 100%;
+        padding: 20px 0;
     }
 
     summary.nav-flex--mob::marker {
