@@ -15,7 +15,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
 
 /* Basic Elements */
@@ -70,7 +70,8 @@ summary {
 
 h1,
 h2,
-h3 {
+h3,
+strong {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
 }
@@ -596,7 +597,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     width: 60%;
-  
+
 }
 
 .footer-right {
@@ -605,7 +606,7 @@ footer {
 
 .subscription-form {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
 }
 
 .to-top {
