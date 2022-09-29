@@ -1,4 +1,69 @@
-!CI Poftfolio Project 1
+# PROJECT 1 - HTML & CSS - EARS: ENHANCED AUDIO RESEARCH SOLUTIONS 
+ 
+EARS (ENHANCED AUDIO RESEARCH SOLUTIONS) is the World's leading manufacturer of headphones and wanted to attract new customers with a new, less formal design than their old website
+They wanted a site that focused on showing off their previous work with strong photography as well as providing lots of information for prospective clients in a less formal, stuffy way than their previous website did. The site aims to show off their work through both photography, technical case studies as well as personal studies from their past customers. The site will also have some pricing information and a contact form to serve as a lead generator / brochure site for the sales team.
+
+
+Image
+
+
+##  FEATURES
+
+### - Navigation:
+
+- The site features a full responsive naviagation on all pages.
+- Font Awesome Icons were used to drawn the users attention to the navigation.
+- The navigation collapses down to a compact, "hamburger" style menu that was achevied with no Javascript.
+
+### - VIDEO
+
+- The Home page showcases some of the companies manufacturing work in a video that users can play / pause
+- The site uses native HTML5 video as iframes can be costly for performance on mobile devices
+
+### - Summary of features
+
+- Brief, easy to read cards with some the companies main selling points, clearly visible on th homepage
+
+### - Gallery
+
+- Interactive gallery with past projects
+- Desktop users can hover over to red more about each one and get an idea of the work the company has done. On Moble this text is always displayed.
+
+### - Case Studies / About page
+
+- Features a description of the comanies founding and marketing copy
+- The About page features some of the past clients the company worked with, providing potential customers with information they might find useful or entive them into making an enquiry
+
+### Process / About Page
+
+- The page also features a simple indicator of the process clients will go through, using Font Awesome Icons to illustrate each one, with a small descrition of each step
+
+### Features Page
+
+- Made up of a seies of easy to read cards, each with an image to reinforce each marketing message
+- Call To Action to wither go to the 'Pricing' page or 'Contact page to encourage users to interact.
+
+
+### Pricing Page
+
+- Pricing Table with estimates for the different types of project that clients typically want.
+- USers can read moe infirmation in the cards below by clicking on the drop-down arrows 
+- Prices are also shown on the cards , with links to contact the company where appropriate
+- This is to help customers decise if the company is right for them as well as make them think what they might want the compnay to do for them should they make an enquiry.
+
+
+### Contact page
+
+- Simple contact page with just the contact form so potential customers can go directly here and send an enquiry easily, without having to read more text.
+- The purpose is to generate leads for the sales team so basic information only is required so the company can follow up.
+
+
+## TESTING
+
+The site has been run through Lighthouse, W3 Validator and Jigsaw and no major errors were found
+
+
+-----------------------
 
 Overall design style inspired by monogramcc.com from https://www.frontendpractice.com/projects/monogram
 
