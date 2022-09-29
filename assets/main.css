@@ -101,7 +101,11 @@ hr {
     margin: 5px 0;
 }
 
-
+video {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
 
 /* Utility/Generic */
 
@@ -216,24 +220,13 @@ hr {
     padding: 12px;
     justify-content: center;
     margin-top: 20px;
-    /* Trick From : https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%;
-    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+
 }
 
-.video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
+
 
 /* Home Features Section */
 
