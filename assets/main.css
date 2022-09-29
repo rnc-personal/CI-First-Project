@@ -15,7 +15,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px dotted red; for debugging*/
+    
 }
 
 /* Basic Elements */
@@ -758,10 +758,6 @@ footer input {
 
 @media screen and (max-width:767px) {
 
-    /* General */
-    /* * {
-        overflow-x: hidden;
-    } */
 
     #header {
         padding: 24px 2vw;
