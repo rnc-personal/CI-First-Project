@@ -190,7 +190,11 @@ video {
     font-size: 2.2rem;
 }
 
-
+.hero-headline p {
+    color: var(--secondary-accent);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
 
 /* Home Blurb */
 
@@ -833,11 +837,15 @@ footer input {
     .hero-headline {
         top: 165px;
         width: 100%;
+
     }
+
+
 
     .hero-headline h1 {
         font-size: 1.8rem;
     }
+
 
     .about-rte {
         max-width: 100%;
