@@ -72,13 +72,14 @@ h3 {
 }
 
 h4,
-h5 {
+h5,
+h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
 
-footer h3,
-footer h4 {
+footer h5,
+footer h6 {
     color: #fff;
 }
 
@@ -427,6 +428,10 @@ video {
     float: left;
     margin: 0 15px 5px 0;
 
+}
+
+.case-study-text p {
+    color: var(--heading-secondary);
 }
 
 /* Features Page */
