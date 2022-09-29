@@ -305,7 +305,7 @@ video {
     height: 100%;
     width: 100%;
     opacity: 0;
-    visibility: none;
+    visibility: visible;
     transition: .5s ease;
     color: #fff;
     text-align: center;
