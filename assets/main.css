@@ -64,6 +64,10 @@ details {
     width: 95%;
 }
 
+summary {
+    cursor: pointer;
+}
+
 h1,
 h2,
 h3 {
@@ -580,17 +584,28 @@ footer {
 }
 
 
-.footer-left,
-.footer-right {
-    width: 50%;
-}
-
 .footer-left {
-    padding: 20px 30px;
+    width: 36%;
+    padding: 20px 0 20px 30px;
 }
 
 .footer-right {
     padding: 20px 30px 20px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+  
+}
+
+.footer-right {
+    padding: 20px 30px 20px 0;
+}
+
+.subscription-form {
+    display: flex;
+flex-direction: column;
 }
 
 .to-top {
@@ -617,7 +632,8 @@ footer label {
 }
 
 footer input {
-    width: 30%;
+    width: 60%;
+    min-width: 30%;
     height: 30px;
     outline: none;
     border: none;
@@ -633,7 +649,6 @@ footer input {
     padding: 8px 20px;
     background-color: var(--highlight);
     color: #fff;
-    margin-left: 10px;
     transition: all 0.8s ease-in-out;
 }
 
