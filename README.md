@@ -12,7 +12,7 @@ They wanted a site that focused on showing off their previous work with strong p
 
 - The site features a full responsive naviagation on all pages.
 - Font Awesome Icons were used to drawn the users attention to the navigation.
-- The navigation collapses down to a compact, "hamburger" style menu that was achevied with no Javascript.
+- The navigation collapses down to a compact, "hamburger" style menu that was achieved with no Javascript.
 
 ![Desktop Nav](https://rnc-personal.github.io/CI-First-Project/readme/dt-nav.png)
 
@@ -83,8 +83,8 @@ They wanted a site that focused on showing off their previous work with strong p
 
 The site has been run through Lighthouse and scores as follows:
 
-[image]
-
+![Lighthouse Desktop](https://rnc-personal.github.io/CI-First-Project/readme/lighthouse-dt.png)
+![Lighthouse Mob](https://rnc-personal.github.io/CI-First-Project/readme/lighthouse-mob.png)
 
 
 The site was put through both [W3 Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frnc-personal.github.io%2FCI-First-Project%2F) and [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frnc-personal.github.io%2FCI-First-Project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) and no major errors were found. Jigsaw did find some warnings but these were related to the Font Awesome Library.
