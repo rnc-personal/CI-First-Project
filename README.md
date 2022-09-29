@@ -1,6 +1,6 @@
 # PROJECT 1 - HTML & CSS - EARS: ENHANCED AUDIO RESEARCH SOLUTIONS 
  
-EARS (ENHANCED AUDIO RESEARCH SOLUTIONS) is the World's leading manufacturer of headphones and wanted to attract new customers with a new, less formal design than their old website
+EARS (ENHANCED AUDIO RESEARCH SOLUTIONS) is the World's leading manufacturer of headphones and they wanted to attract new customers with a brochure style site for prospective customers and their sales team to generate leads from.
 They wanted a site that focused on showing off their previous work with strong photography as well as providing lots of information for prospective clients in a less formal, stuffy way than their previous website did. The site aims to show off their work through both photography, technical case studies as well as personal studies from their past customers. The site will also have some pricing information and a contact form to serve as a lead generator / brochure site for the sales team.
 
 
@@ -10,7 +10,7 @@ They wanted a site that focused on showing off their previous work with strong p
 
 ### - Navigation:
 
-- The site features a full responsive naviagation on all pages.
+- The site features a full responsive navigation on all pages.
 - Font Awesome Icons were used to drawn the users attention to the navigation.
 - The navigation collapses down to a compact, "hamburger" style menu that was achieved with no Javascript.
 
@@ -20,8 +20,8 @@ They wanted a site that focused on showing off their previous work with strong p
 
 ### - VIDEO
 
-- The Home page showcases some of the companies manufacturing work in a video that users can play / pause
-- The site uses native HTML5 video as iframes can be costly for performance on mobile devices
+- The Home page showcases some of the company's manufacturing work in a video that users can play / pause
+- The site uses native HTML5 video rather than embedded video iframes this can be costly for performance on mobile devices
 
 ![Video](https://rnc-personal.github.io/CI-First-Project/readme/video.png)
 
@@ -34,7 +34,7 @@ They wanted a site that focused on showing off their previous work with strong p
 ### - Gallery
 
 - Interactive gallery with past projects
-- Desktop users can hover over to read more about each one and get an idea of the work the company has done. On Moble this text is always displayed.
+- Desktop users can hover over to read more about each one and get an idea of the work the company has done. On Mobile this text is always displayed.
 
 ![Gallery](https://rnc-personal.github.io/CI-First-Project/readme/gallery.png)
 
@@ -61,7 +61,7 @@ They wanted a site that focused on showing off their previous work with strong p
 ### Pricing Page
 
 - Pricing Table with estimates for the different types of project that clients typically want.
-- USers can read moe infirmation in the cards below by clicking on the drop-down arrows 
+- USers can read moe information in the cards below by clicking on the drop-down arrows 
 - Prices are also shown on the cards , with links to contact the company where appropriate
 - This is to help customers decise if the company is right for them as well as make them think what they might want the compnay to do for them should they make an enquiry.
 
@@ -82,16 +82,18 @@ They wanted a site that focused on showing off their previous work with strong p
 ## TESTING
 
 The site has been run through Lighthouse and scores as follows:
+- Desktop
+    ![Lighthouse Desktop](https://rnc-personal.github.io/CI-First-Project/readme/lighthouse-dt.png)
+- Mobile
+    ![Lighthouse Mob](https://rnc-personal.github.io/CI-First-Project/readme/lighthouse-mob-fit.png)
 
-![Lighthouse Desktop](https://rnc-personal.github.io/CI-First-Project/readme/lighthouse-dt.png)
-![Lighthouse Mob](https://rnc-personal.github.io/CI-First-Project/readme/lighthouse-mob.png)
 
 
 The site was put through both [W3 Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frnc-personal.github.io%2FCI-First-Project%2F) and [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frnc-personal.github.io%2FCI-First-Project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) and no major errors were found. Jigsaw did find some warnings but these were related to the Font Awesome Library.
 
 ## BUGS
 
-There were a few bugs during development, all of which were esolved by the end. These are as follows:
+There were a few bugs during development, all of which were resolved by the end of the project. These are as follows:
 
 * 24/09/2022 - Bug after adding FontAwesome where changes to CSS didn't register, only HTML changes were being picked up.
 Removed Font Awesome but no change. Tried Re-order stylesheet links order in header but again no change..
