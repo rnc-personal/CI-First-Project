@@ -902,6 +902,12 @@ footer input {
         margin: 0;
     }
 
+    /* Contact Page */
+
+    .req-form input::placeholder {
+        font-size: 1.4rem;
+    }
+
     /* Footer */
 
     .to-top {
