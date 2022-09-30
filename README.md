@@ -37,6 +37,7 @@ They wanted a site that focused on showing off their previous work with strong p
 
 - Interactive gallery with past projects
 - Desktop users can hover over to read more about each one and get an idea of the work the company has done. On Mobile this text is always displayed.
+- Credit: https://stevenstromick.com/css/css-card-overlay/
 
 ![Gallery](https://rnc-personal.github.io/CI-First-Project/readme/gallery.png)
 
