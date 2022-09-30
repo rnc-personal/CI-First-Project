@@ -904,6 +904,10 @@ footer input {
 
     /* Contact Page */
 
+    .req-form input {
+        width: 75%;
+    }
+
     .req-form input::placeholder {
         font-size: 1.4rem;
     }
